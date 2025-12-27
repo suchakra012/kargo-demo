@@ -7,11 +7,16 @@ data:
     <!DOCTYPE html>
     <html>
     <head>
-    <title>uat</title>
+    <meta charset="UTF-8">
+    <title>UAT ENVIRONMENT</title>
     </head>
     <body>
 
-    <h1>uat app</h1>
+    <h1>🚀 Application Deployed on UAT Environment</h1>
+
+    <p style="margin-top:30px;">
+        This is a UAT Acceptance environment.
+    </p>
 
     </body>
     </html>
