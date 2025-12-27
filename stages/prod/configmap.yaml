@@ -7,11 +7,16 @@ data:
     <!DOCTYPE html>
     <html>
     <head>
-    <title>prod</title>
+    <meta charset="UTF-8">
+    <title>PRODUCTION ENVIRONMENT</title>
     </head>
     <body>
 
-    <h1>prod app</h1>
+    <h1> 🔥 Application Deployed on PRODUCTION Environment</h1>
+
+    <p style="margin-top:30px;">
+        This is a Prod environment.
+    </p>
 
     </body>
     </html>
