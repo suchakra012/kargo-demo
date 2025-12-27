@@ -7,11 +7,16 @@ data:
     <!DOCTYPE html>
     <html>
     <head>
-    <title>test</title>
+    <meta charset="UTF-8">
+    <title>TEST ENVIRONMENT</title>
     </head>
     <body>
 
-    <h1>test app</h1>
+    <h1>🚀 Application Deployed on TEST Environment</h1>
+
+    <p style="margin-top:30px;">
+        This is a Testing environment.
+    </p>
 
     </body>
     </html>
