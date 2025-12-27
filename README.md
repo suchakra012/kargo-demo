@@ -4,7 +4,7 @@
 
 a) Fork the repository - https://github.com/suchakra012/kargo-demo.git
 
-b) Save the location of the GITOPS Repository, Username & TOKEN
+b) Save the location of the GitOps Repository, USERNAME & TOKEN
 ```sh
 export GITOPS_REPO_URL=<your repo URL, starting with https://>
 export GITHUB_USERNAME=<your github handle>
