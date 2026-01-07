@@ -1,17 +1,9 @@
 apiVersion: v1
 data:
-  index.html: |-
-    <!DOCTYPE html>
-    <html>
-    <head>
-    <title>uat</title>
-    </head>
-    <body>
-
-    <h1>uat app</h1>
-
-    </body>
-    </html>
+  index.html: "<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\">\n<title>UAT
+    ENVIRONMENT</title>\n</head>\n<body>\n\n<h1>\U0001F680 Application Deployed on
+    UAT Environment</h1>\n\n<p style=\"margin-top:30px;\">\n    This is a UAT Acceptance
+    environment.\n</p>\n\n</body>\n</html>"
 kind: ConfigMap
 metadata:
   name: kargo-demo-content
