@@ -4,14 +4,19 @@
 
 a) Fork the repository - https://github.com/suchakra012/kargo-demo.git
 
-b) Save the location of the GitOps Repository, USERNAME & TOKEN
+b) Create a Kind Cluster with the latest Kubernetes version, ARGOCD & KARGO
+```sh
+curl -L https://raw.githubusercontent.com/akuity/kargo/main/hack/quickstart/kind.sh | sh
+```
+
+c) Save the location of the GitOps Repository, USERNAME & TOKEN
 ```sh
 export GITOPS_REPO_URL=<your repo URL, starting with https://>
 export GITHUB_USERNAME=<your github handle>
 export GITHUB_PAT=<your personal access token>
 ```
 
-c) Create Argo CD Application Resources
+d) Create Argo CD Application Resources
 ```sh
 cat <<EOF | kubectl apply -f -
 apiVersion: argoproj.io/v1alpha1
@@ -46,7 +51,7 @@ spec:
 EOF
 ```
 
-d) Create Kargo Resources 
+e) Create Kargo Resources 
 ```sh
 cat <<EOF | kubectl apply -f -
 apiVersion: kargo.akuity.io/v1alpha1
